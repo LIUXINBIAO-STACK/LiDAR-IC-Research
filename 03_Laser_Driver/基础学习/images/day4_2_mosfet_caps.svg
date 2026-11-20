@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 304" width="680" height="304" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="304" fill="#FFFFFF" rx="8"/>
+  <circle cx="340" cy="30" r="4.5" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="356" y="34" font-family="monospace" font-size="13" fill="#0F172A">D (漏极)</text>
+  <line x1="340" y1="35" x2="340" y2="124" stroke="#0F172A" stroke-width="1.6"/>
+
+  <circle cx="340" cy="274" r="4.5" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="356" y="278" font-family="monospace" font-size="13" fill="#0F172A">S (源极)</text>
+  <line x1="340" y1="152" x2="340" y2="269" stroke="#0F172A" stroke-width="1.6"/>
+
+  <circle cx="124" cy="152" r="4.5" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="112" y="156" text-anchor="end" font-family="monospace" font-size="13" fill="#0F172A">G (栅极)</text>
+  <line x1="129" y1="152" x2="296" y2="152" stroke="#0F172A" stroke-width="1.6"/>
+
+  <line x1="296" y1="116" x2="296" y2="188" stroke="#0F172A" stroke-width="1.6"/>
+  <line x1="308" y1="114" x2="308" y2="134" stroke="#0F172A" stroke-width="1.6"/>
+  <line x1="308" y1="142" x2="308" y2="162" stroke="#0F172A" stroke-width="1.6"/>
+  <line x1="308" y1="170" x2="308" y2="190" stroke="#0F172A" stroke-width="1.6"/>
+  <line x1="308" y1="124" x2="340" y2="124" stroke="#0F172A" stroke-width="1.6"/>
+  <line x1="308" y1="152" x2="340" y2="152" stroke="#0F172A" stroke-width="1.6"/>
+  <line x1="308" y1="180" x2="340" y2="180" stroke="#0F172A" stroke-width="1.6"/>
+  <polygon points="310,152 322,146 322,158" fill="#0F172A"/>
+
+  <circle cx="220" cy="152" r="3.5" fill="#0F172A"/>
+  <circle cx="340" cy="64" r="3.5" fill="#0F172A"/>
+  <circle cx="340" cy="240" r="3.5" fill="#0F172A"/>
+  <circle cx="340" cy="180" r="3" fill="#0F172A"/>
+
+  <polyline points="220,152 220,114" fill="none" stroke="#D97706" stroke-width="1.8"/>
+  <line x1="202" y1="114" x2="238" y2="114" stroke="#D97706" stroke-width="2"/>
+  <line x1="202" y1="102" x2="238" y2="102" stroke="#D97706" stroke-width="2"/>
+  <polyline points="220,102 220,64 340,64" fill="none" stroke="#D97706" stroke-width="1.8"/>
+  <text x="192" y="102" text-anchor="end" font-family="monospace" font-size="13.5" fill="#B45309">C_gd</text>
+  <text x="192" y="120" text-anchor="end" font-family="sans-serif" font-size="12" fill="#475569">米勒电容（跨接 G-D）</text>
+
+  <polyline points="220,152 220,190" fill="none" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="202" y1="190" x2="238" y2="190" stroke="#0284C7" stroke-width="2"/>
+  <line x1="202" y1="202" x2="238" y2="202" stroke="#0284C7" stroke-width="2"/>
+  <polyline points="220,202 220,240 340,240" fill="none" stroke="#0284C7" stroke-width="1.8"/>
+  <text x="192" y="196" text-anchor="end" font-family="monospace" font-size="13.5" fill="#0369A1">C_gs</text>
+  <text x="192" y="214" text-anchor="end" font-family="sans-serif" font-size="12" fill="#475569">栅源电容（跨接 G-S）</text>
+
+  <polyline points="340,64 446,64 446,146" fill="none" stroke="#0D9488" stroke-width="1.8"/>
+  <line x1="428" y1="146" x2="464" y2="146" stroke="#0D9488" stroke-width="2"/>
+  <line x1="428" y1="158" x2="464" y2="158" stroke="#0D9488" stroke-width="2"/>
+  <polyline points="446,158 446,240 340,240" fill="none" stroke="#0D9488" stroke-width="1.8"/>
+  <text x="476" y="148" font-family="monospace" font-size="13.5" fill="#0F766E">C_ds</text>
+  <text x="476" y="166" font-family="sans-serif" font-size="12" fill="#475569">漏源电容（跨接 D-S）</text>
+</svg>

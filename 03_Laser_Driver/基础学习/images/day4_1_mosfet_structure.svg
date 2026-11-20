@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 264" width="680" height="264" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="264" fill="#FFFFFF" rx="8"/>
+  <line x1="156" y1="30" x2="156" y2="74" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="156" y="20" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F172A">S (源极)</text>
+  <line x1="340" y1="30" x2="340" y2="62" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="340" y="20" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F172A">G (栅极)</text>
+  <line x1="524" y1="30" x2="524" y2="74" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="524" y="20" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F172A">D (漏极)</text>
+
+  <rect x="232" y="62" width="216" height="14" fill="#64748B"/>
+  <rect x="218" y="76" width="244" height="16" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.1"/>
+  <text x="340" y="88" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0369A1">SiO₂ 绝缘氧化层（阻断直流）</text>
+
+  <rect x="122" y="74" width="68" height="18" fill="#64748B"/>
+  <rect x="490" y="74" width="68" height="18" fill="#64748B"/>
+
+  <rect x="92" y="92" width="496" height="140" rx="6" fill="#F8FAFC" stroke="#64748B" stroke-width="1.2"/>
+  <text x="340" y="182" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">P 型硅衬底（内部含空穴，默认绝缘）</text>
+  <text x="340" y="204" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#475569">体二极管天然存在于 P 衬底与 N+ 漏极之间</text>
+
+  <rect x="116" y="92" width="112" height="58" rx="4" fill="#E2E8F0" stroke="#64748B" stroke-width="1.2"/>
+  <text x="172" y="124" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F172A">N+ 源区</text>
+  <rect x="452" y="92" width="112" height="58" rx="4" fill="#E2E8F0" stroke="#64748B" stroke-width="1.2"/>
+  <text x="508" y="124" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F172A">N+ 漏区</text>
+
+  <rect x="228" y="92" width="224" height="12" fill="#38BDF8"/>
+  <text x="340" y="120" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0369A1">V_GS &gt; V_th 时感应出 N 型导电沟道（电子桥）</text>
+
+  <path d="M 272 62 Q 210 42 156 54" fill="none" stroke="#D97706" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <text x="212" y="42" text-anchor="middle" font-family="monospace" font-size="12" fill="#B45309">C_gs</text>
+  <path d="M 408 62 Q 470 42 524 54" fill="none" stroke="#D97706" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <text x="468" y="42" text-anchor="middle" font-family="monospace" font-size="12" fill="#B45309">C_gd (米勒电容)</text>
+  <path d="M 172 156 Q 340 256 508 156" fill="none" stroke="#D97706" stroke-width="1.4" stroke-dasharray="3 3"/>
+  <text x="340" y="252" text-anchor="middle" font-family="monospace" font-size="12" fill="#B45309">C_ds (输出结电容)</text>
+</svg>

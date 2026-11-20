@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 396" width="680" height="396" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="396" fill="#FFFFFF" rx="8"/>
+  <line x1="206" y1="24" x2="206" y2="366" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="286" y1="24" x2="286" y2="366" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="416" y1="24" x2="416" y2="366" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="516" y1="24" x2="516" y2="366" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+
+  <text x="166" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">① 延迟期</text>
+  <text x="246" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">② 电流上升</text>
+  <text x="351" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">③ 米勒平台期</text>
+  <text x="466" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">④ 过驱动</text>
+  <text x="572" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">稳态导通</text>
+
+  <text x="112" y="64" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">栅极电压</text>
+  <text x="112" y="82" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">V_GS</text>
+  <line x1="126" y1="112" x2="626" y2="112" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="126" y1="88" x2="214" y2="88" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="132" y="83" font-family="monospace" font-size="11.5" fill="#475569">V_th</text>
+  <polyline points="126,112 206,88 286,66 416,66 516,38 618,38" fill="none" stroke="#7C3AED" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="351" y="56" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">V_GS 卡在平台不变</text>
+  <text x="568" y="32" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">V_drive (5V/12V)</text>
+
+  <text x="112" y="176" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">栅极电流</text>
+  <text x="112" y="194" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">I_G</text>
+  <line x1="126" y1="226" x2="626" y2="226" stroke="#64748B" stroke-width="1.15"/>
+  <path d="M 126 226 L 126 144 Q 206 164 286 178 L 416 178 Q 466 218 516 226 L 618 226" fill="none" stroke="#0284C7" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="351" y="168" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">全部电流专攻 C_gd</text>
+  <text x="572" y="216" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">稳态 I_G = 0</text>
+
+  <text x="112" y="294" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">漏极压/流</text>
+  <text x="112" y="312" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">V_DS / I_D</text>
+  <line x1="126" y1="354" x2="626" y2="354" stroke="#64748B" stroke-width="1.15"/>
+  <polyline points="126,268 286,268 416,348 618,348" fill="none" stroke="#D97706" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="172" y="260" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#B45309">V_DS (高压)</text>
+  <text x="351" y="302" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">V_DS 骤降</text>
+  <polyline points="126,354 206,354 286,278 618,278" fill="none" stroke="#0D9488" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="568" y="270" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F766E">I_D (负载大电流)</text>
+
+  <text x="126" y="382" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">t0</text>
+  <text x="206" y="382" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">t1</text>
+  <text x="286" y="382" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">t2</text>
+  <text x="416" y="382" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">t3</text>
+  <text x="516" y="382" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">t4</text>
+</svg>

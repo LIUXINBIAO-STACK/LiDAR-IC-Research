@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 318" width="680" height="318" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="318" fill="#FFFFFF" rx="8"/>
+  <text x="180" y="22" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">无死区（同时切换 → 直通短路）</text>
+  <rect x="174" y="38" width="32" height="238" fill="#FEF3C7"/>
+  <text x="62" y="76" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">上管状态</text>
+  <line x1="70" y1="90" x2="306" y2="90" stroke="#64748B" stroke-width="1.15"/>
+  <polyline points="76,48 174,48 206,90 300,90" fill="none" stroke="#0284C7" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="152" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">下管状态</text>
+  <line x1="70" y1="166" x2="306" y2="166" stroke="#64748B" stroke-width="1.15"/>
+  <polyline points="76,166 174,166 188,124 300,124" fill="none" stroke="#0D9488" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="62" y="252" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">直通电流</text>
+  <line x1="70" y1="266" x2="306" y2="266" stroke="#64748B" stroke-width="1.15"/>
+  <path d="M 76 266 L 174 266 Q 190 192 206 266 L 300 266" fill="none" stroke="#D97706" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="190" y="294" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#B45309">上下管短暂同开，VDD 对地短路！</text>
+
+  <text x="506" y="22" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">有死区（先断后通 → 安全零直通）</text>
+  <rect x="504" y="38" width="34" height="238" fill="#DCFCE7"/>
+  <line x1="396" y1="90" x2="632" y2="90" stroke="#64748B" stroke-width="1.15"/>
+  <polyline points="402,48 474,48 504,90 626,90" fill="none" stroke="#0284C7" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="396" y1="166" x2="632" y2="166" stroke="#64748B" stroke-width="1.15"/>
+  <polyline points="402,166 538,166 554,124 626,124" fill="none" stroke="#0D9488" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="521" y="114" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F172A">t_d</text>
+  <line x1="396" y1="266" x2="632" y2="266" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="402" y1="266" x2="626" y2="266" stroke="#0D9488" stroke-width="2.25"/>
+  <text x="521" y="254" text-anchor="middle" font-family="monospace" font-size="12" fill="#0F766E">I_shoot = 0 A</text>
+  <text x="521" y="294" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0F766E">确认上管彻底关断，再开下管</text>
+</svg>
