@@ -8,7 +8,7 @@
 
 激光发射控制链路依次经过：**外部触发 `TRIG` $\rightarrow$ 数字控制模块（FPGA/MCU） $\rightarrow$ 前级驱动（Gate Driver） $\rightarrow$ 功率开关管（GaN/MOSFET） $\rightarrow$ 激光器电流 $I_{\text{LD}}$ $\rightarrow$ 激光光输出 $P_{\text{opt}}$**。
 
-&lt;img src=&quot;./images/fig1_timing_chain.svg&quot; alt=&quot;脉冲驱动四级时序对齐波形图&quot; width=&quot;680&quot; /&gt;
+<img src="./images/fig1_timing_chain.svg" alt="脉冲驱动四级时序对齐波形图" width="680" />
 
 ### 1. 四级传播延迟拆解
 
@@ -29,7 +29,7 @@ $$
 
 ## 二、激光脉冲的六大关键性能指标
 
-&lt;img src=&quot;./images/fig2_pulse_metrics.svg&quot; alt=&quot;激光脉冲六大关键性能指标全景标注图&quot; width=&quot;680&quot; /&gt;
+<img src="./images/fig2_pulse_metrics.svg" alt="激光脉冲六大关键性能指标全景标注图" width="680" />
 
 | 性能指标 | 工程定义 | 典型目标值（dToF） | 对激光雷达系统的核心影响 |
 | :--- | :--- | :--- | :--- |
@@ -50,7 +50,7 @@ $$
 V_{\text{spike}} = L_{\text{para}} \frac{di}{dt}, \qquad f_{\text{ring}} = \frac{1}{2\pi\sqrt{L_{\text{para}} C_{\text{para}}}}, \qquad \zeta = \frac{R}{2}\sqrt{\frac{C_{\text{para}}}{L_{\text{para}}}}
 $$
 
-&lt;img src=&quot;./images/fig3_damping_ringing.svg&quot; alt=&quot;不同阻尼比下的电压尖峰与振铃仿真曲线&quot; width=&quot;680&quot; /&gt;
+<img src="./images/fig3_damping_ringing.svg" alt="不同阻尼比下的电压尖峰与振铃仿真曲线" width="680" />
 
 * **欠阻尼（$\zeta < 1$，如图中 $\zeta = 0.15$）**：阻尼太小，产生极高的电压尖峰和持久的高频振铃，极易击穿器件或触发接收端误报。
 * **最佳阻尼（$\zeta \approx 0.7$）**：兼顾最快的上升/下降时间与极小的过冲，是高速脉冲驱动的理想调试目标。
