@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 264" width="680" height="264" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="264" fill="#FFFFFF" rx="8"/>
+  <line x1="130" y1="20" x2="130" y2="236" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="230" y1="20" x2="230" y2="236" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="280" y1="20" x2="280" y2="236" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="346" y1="20" x2="346" y2="236" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+
+  <text x="114" y="64" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">IN- 电压</text>
+  <text x="114" y="82" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">(RC 充电)</text>
+  <line x1="126" y1="124" x2="620" y2="124" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="126" y1="68" x2="616" y2="68" stroke="#94A3B8" stroke-width="1.1" stroke-dasharray="4 3"/>
+  <text x="616" y="62" text-anchor="end" font-family="monospace" font-size="11.5" fill="#0F172A">V_IH 翻转阈值 (1.7V–2.6V)</text>
+
+  <path d="M 130 124 Q 186 68 290 42 L 590 38" fill="none" stroke="#0284C7" stroke-width="2" stroke-dasharray="5 3"/>
+  <path d="M 130 124 Q 220 74 360 44 L 590 38" fill="none" stroke="#0D9488" stroke-width="2.3"/>
+  <path d="M 130 124 Q 260 80 440 48 L 590 38" fill="none" stroke="#D97706" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <circle cx="230" cy="68" r="3.5" fill="#0284C7"/>
+  <circle cx="280" cy="68" r="3.5" fill="#0D9488"/>
+  <circle cx="346" cy="68" r="3.5" fill="#D97706"/>
+
+  <text x="196" y="42" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#0369A1">RC 偏小</text>
+  <text x="280" y="28" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F766E">标称 1.5ns</text>
+  <text x="410" y="54" font-family="sans-serif" font-size="11.5" fill="#B45309">RC 偏大</text>
+
+  <text x="114" y="196" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">OUT 脉冲</text>
+  <text x="114" y="214" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">脉宽变化</text>
+  <line x1="126" y1="226" x2="620" y2="226" stroke="#64748B" stroke-width="1.15"/>
+
+  <polyline points="126,226 130,226 130,164 280,164 280,226 616,226" fill="none" stroke="#0D9488" stroke-width="2.3"/>
+  <polyline points="130,164 230,164 230,226" fill="none" stroke="#0284C7" stroke-width="2" stroke-dasharray="5 3"/>
+  <polyline points="280,164 346,164 346,226" fill="none" stroke="#D97706" stroke-width="2" stroke-dasharray="5 3"/>
+
+  <text x="180" y="248" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0369A1">变窄（&lt;1ns 可能丢脉冲）</text>
+  <text x="386" y="196" font-family="sans-serif" font-size="11.5" fill="#B45309">变宽（单脉冲能量与温升偏高）</text>
+</svg>

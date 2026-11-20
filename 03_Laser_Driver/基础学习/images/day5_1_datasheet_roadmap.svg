@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 206" width="680" height="206" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="206" fill="#FFFFFF" rx="8"/>
+  <defs>
+    <marker id="arr-d51" viewBox="0 0 10 10" refX="7.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="8" markerHeight="8" orient="auto">
+      <path d="M 3 1.5 L 7.5 5 L 3 8.5" fill="none" stroke="#0F172A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+
+  <rect x="20" y="18" width="176" height="72" rx="36" fill="#F1F5F9"/>
+  <text x="108" y="47" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">① 首页定生死</text>
+  <text x="108" y="68" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">P.1 Features + 框图</text>
+
+  <line x1="204" y1="54" x2="244" y2="54" stroke="#0F172A" stroke-width="1.3" stroke-dasharray="0 4" stroke-linecap="round" marker-end="url(#arr-d51)"/>
+
+  <rect x="252" y="18" width="176" height="72" rx="36" fill="#F1F5F9"/>
+  <text x="340" y="47" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">② 封装与红线</text>
+  <text x="340" y="68" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">P.3-4 引脚 / Abs Max</text>
+
+  <line x1="436" y1="54" x2="476" y2="54" stroke="#0F172A" stroke-width="1.3" stroke-dasharray="0 4" stroke-linecap="round" marker-end="url(#arr-d51)"/>
+
+  <rect x="484" y="18" width="176" height="72" rx="36" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.25"/>
+  <text x="572" y="47" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#075985">③ 核心指标核对</text>
+  <text x="572" y="68" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0369A1">P.5-6 电气与开关参数</text>
+
+  <path d="M 572 98 L 572 110 Q 572 116 560 116 L 120 116 Q 108 116 108 122 L 108 128" fill="none" stroke="#0F172A" stroke-width="1.3" stroke-dasharray="0 4" stroke-linecap="round" marker-end="url(#arr-d51)"/>
+
+  <rect x="20" y="134" width="286" height="62" rx="31" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.25"/>
+  <text x="163" y="158" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#075985">④ 内部逻辑与典型应用电路</text>
+  <text x="163" y="178" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0369A1">P.8-14 真值表、窄脉冲黑科技、防地弹</text>
+
+  <line x1="314" y1="165" x2="366" y2="165" stroke="#0F172A" stroke-width="1.3" stroke-dasharray="0 4" stroke-linecap="round" marker-end="url(#arr-d51)"/>
+
+  <rect x="374" y="134" width="286" height="62" rx="31" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
+  <text x="517" y="158" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">⑤ 电源去耦与 PCB 布局抄作业</text>
+  <text x="517" y="178" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">P.15-17 官方推荐去耦电容与 4 层板示例</text>
+</svg>
