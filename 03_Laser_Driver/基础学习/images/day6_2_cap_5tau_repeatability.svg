@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 220" width="680" height="220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="220" fill="#FFFFFF" rx="8"/>
+  <text x="176" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">充放电充分（T_PRF ≥ 5τ）</text>
+  <line x1="44" y1="168" x2="308" y2="168" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="44" y1="42" x2="44" y2="168" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="44" y1="56" x2="304" y2="56" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="36" y="60" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">V_HV</text>
+  <path d="M 44 56 L 90 56 L 96 168 Q 116 60 158 56 L 190 56 L 196 168 Q 216 60 258 56 L 290 56 L 296 168" fill="none" stroke="#0D9488" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="176" y="196" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#0F766E">每发起始电压 100% 相同 → 重复性极好</text>
+
+  <text x="516" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">充电电阻过大 / 重频过高（T_PRF &lt; 3τ）</text>
+  <line x1="384" y1="168" x2="648" y2="168" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="384" y1="42" x2="384" y2="168" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="384" y1="56" x2="644" y2="56" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="376" y="60" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">V_HV</text>
+  <path d="M 384 56 L 430 56 L 436 168 Q 464 114 504 94 L 510 168 Q 538 114 578 94 L 584 168 Q 612 114 644 96" fill="none" stroke="#D97706" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="430" y="48" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">第1发满格</text>
+  <text x="544" y="84" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">后续全部充不满！</text>
+  <text x="516" y="196" text-anchor="middle" font-family="sans-serif" font-size="12" fill="#B45309">首脉冲偏强、后续掉幅 → 测距误差</text>
+</svg>

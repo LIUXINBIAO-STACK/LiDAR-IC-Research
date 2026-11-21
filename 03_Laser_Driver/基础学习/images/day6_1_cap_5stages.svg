@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 318" width="680" height="318" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="318" fill="#FFFFFF" rx="8"/>
+  <rect x="344" y="26" width="46" height="260" fill="#E0F2FE"/>
+  <line x1="254" y1="26" x2="254" y2="286" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="344" y1="26" x2="344" y2="286" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+  <line x1="390" y1="26" x2="390" y2="286" stroke="#CBD5E1" stroke-width="1.1" stroke-dasharray="3 3"/>
+
+  <text x="179" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">① 充电阶段</text>
+  <text x="299" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">② 等待阶段</text>
+  <text x="367" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#075985">③④ 触发放电</text>
+  <text x="505" y="18" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F172A">⑤ 恢复再充电 (进入下周期)</text>
+
+  <text x="92" y="64" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">电容电压</text>
+  <text x="92" y="82" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">V_C (t)</text>
+  <line x1="104" y1="114" x2="628" y2="114" stroke="#64748B" stroke-width="1.15"/>
+  <line x1="104" y1="42" x2="624" y2="42" stroke="#94A3B8" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="628" y="46" font-family="monospace" font-size="11.5" fill="#475569">V_HV</text>
+  <path d="M 104 114 Q 146 44 254 42 L 344 42 Q 366 44 384 114 Q 428 44 544 42 L 620 42" fill="none" stroke="#0284C7" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="299" y="60" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">稳稳停在 V_HV</text>
+
+  <text x="92" y="168" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">触发/栅压</text>
+  <text x="92" y="186" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">TRIG/V_GS</text>
+  <line x1="104" y1="194" x2="628" y2="194" stroke="#64748B" stroke-width="1.15"/>
+  <polyline points="104,194 344,194 344,148 390,148 390,194 620,194" fill="none" stroke="#0D9488" stroke-width="2.1" stroke-linejoin="round"/>
+  <text x="218" y="184" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">MOS 关断（低电平）</text>
+  <text x="505" y="184" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">MOS 关断，隔离放电回路</text>
+
+  <text x="92" y="254" text-anchor="end" font-family="sans-serif" font-size="13" fill="#0F172A">激光电流</text>
+  <text x="92" y="272" text-anchor="end" font-family="monospace" font-size="11.5" fill="#475569">I_LD (A)</text>
+  <line x1="104" y1="280" x2="628" y2="280" stroke="#64748B" stroke-width="1.15"/>
+  <path d="M 104 280 L 348 280 Q 368 202 388 280 L 620 280" fill="none" stroke="#D97706" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="456" y="232" font-family="sans-serif" font-size="11.5" fill="#B45309">ns 级半正弦尖峰（30~100A）</text>
+  <text x="366" y="306" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">充电/恢复为 μs 级，触发放电仅为 ns 级（相差上千倍）</text>
+</svg>

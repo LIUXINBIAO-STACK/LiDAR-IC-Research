@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 264" width="680" height="264" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="264" fill="#FFFFFF" rx="8"/>
+  <line x1="340" y1="14" x2="340" y2="250" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="170" y="22" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">错误接法：存在共源电感 L_CSI</text>
+  <rect x="28" y="88" width="90" height="58" rx="10" fill="#F8FAFC" stroke="#475569" stroke-width="1.2"/>
+  <text x="73" y="112" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">前级驱动</text>
+  <text x="73" y="130" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">LMG1020</text>
+  <line x1="118" y1="106" x2="210" y2="106" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="164" y="98" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">R_g</text>
+  <line x1="210" y1="90" x2="210" y2="124" stroke="#0F172A" stroke-width="1.4"/>
+  <line x1="218" y1="88" x2="218" y2="126" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="218" y1="94" x2="246" y2="94" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="218" y1="120" x2="246" y2="120" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="246" y1="48" x2="246" y2="94" stroke="#0284C7" stroke-width="1.8"/>
+  <text x="256" y="64" font-family="monospace" font-size="11.5" fill="#0F172A">LD 大电流</text>
+  <text x="256" y="110" font-family="monospace" font-size="11.5" fill="#0F172A">GaN</text>
+  <line x1="246" y1="120" x2="246" y2="146" stroke="#0284C7" stroke-width="1.8"/>
+  <path d="M 246 146 A 6 6 0 0 1 246 158 A 6 6 0 0 1 246 170 A 6 6 0 0 1 246 182" fill="none" stroke="#D97706" stroke-width="2"/>
+  <text x="258" y="168" font-family="sans-serif" font-size="11.5" fill="#B45309">L_CSI (共用走线)</text>
+  <line x1="246" y1="182" x2="246" y2="206" stroke="#0284C7" stroke-width="1.8"/>
+  <polyline points="73,146 73,206 246,206" fill="none" stroke="#0F172A" stroke-width="1.4"/>
+  <circle cx="246" cy="206" r="3" fill="#0F172A"/>
+  <line x1="234" y1="206" x2="258" y2="206" stroke="#0F172A" stroke-width="1.4"/>
+  <line x1="239" y1="212" x2="253" y2="212" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="170" y="238" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">大电流在 L_CSI 产生压降，直接抵消 5V 栅压！</text>
+
+  <text x="510" y="22" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">正确接法：开尔文源极独立回流</text>
+  <rect x="368" y="88" width="90" height="58" rx="10" fill="#F8FAFC" stroke="#475569" stroke-width="1.2"/>
+  <text x="413" y="112" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">前级驱动</text>
+  <text x="413" y="130" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#475569">LMG1020</text>
+  <line x1="458" y1="106" x2="550" y2="106" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="504" y="98" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">R_g</text>
+  <line x1="550" y1="90" x2="550" y2="124" stroke="#0F172A" stroke-width="1.4"/>
+  <line x1="558" y1="88" x2="558" y2="126" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="558" y1="94" x2="586" y2="94" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="558" y1="120" x2="586" y2="120" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="586" y1="48" x2="586" y2="94" stroke="#0284C7" stroke-width="1.8"/>
+  <text x="596" y="64" font-family="monospace" font-size="11.5" fill="#0F172A">LD 大电流</text>
+  <text x="596" y="110" font-family="monospace" font-size="11.5" fill="#0F172A">GaN</text>
+  <circle cx="586" cy="126" r="3.2" fill="#0F172A"/>
+  <polyline points="586,126 586,144 476,144 476,130 458,130" fill="none" stroke="#0D9488" stroke-width="1.8"/>
+  <text x="516" y="160" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F766E">独立开尔文回流（无大电流）</text>
+  <line x1="586" y1="126" x2="586" y2="206" stroke="#0284C7" stroke-width="1.8"/>
+  <line x1="574" y1="206" x2="598" y2="206" stroke="#0F172A" stroke-width="1.4"/>
+  <line x1="579" y1="212" x2="593" y2="212" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="596" y="196" font-family="sans-serif" font-size="11.5" fill="#475569">功率地</text>
+  <text x="510" y="238" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0F766E">驱动与功率环路在源极单点分离，无负反馈干扰</text>
+</svg>

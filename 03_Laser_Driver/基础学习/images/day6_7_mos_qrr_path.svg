@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 318" width="680" height="318" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="318" fill="#FFFFFF" rx="8"/>
+  <defs>
+    <marker id="arr-d6f" viewBox="0 0 10 10" refX="7.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 3 1.5 L 7.5 5 L 3 8.5" fill="none" stroke="#0D9488" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+    <marker id="arr-d6r" viewBox="0 0 10 10" refX="7.5" refY="5" markerUnits="userSpaceOnUse" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M 3 1.5 L 7.5 5 L 3 8.5" fill="none" stroke="#D97706" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <line x1="340" y1="12" x2="340" y2="306" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="170" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">① 硅 MOS 体二极管续流：少子堆积在 N⁻ 区</text>
+  <rect x="48" y="54" width="128" height="14" fill="#94A3B8"/>
+  <text x="112" y="46" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">S (源极金属)</text>
+  <rect x="192" y="54" width="96" height="18" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+  <rect x="206" y="58" width="68" height="10" fill="#64748B"/>
+  <text x="240" y="46" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">G (0V 关断)</text>
+
+  <rect x="48" y="72" width="240" height="146" fill="#F8FAFC" stroke="#64748B" stroke-width="1.2"/>
+  <rect x="48" y="218" width="240" height="28" fill="#E2E8F0" stroke="#64748B" stroke-width="1.2"/>
+  <text x="168" y="236" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">N⁺ 衬底 → D (漏极，底面)</text>
+  <path d="M 48 72 L 210 72 L 210 116 Q 210 132 194 132 L 48 132 Z" fill="#E2E8F0" stroke="#64748B" stroke-width="1.2"/>
+  <rect x="148" y="72" width="46" height="22" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
+  <text x="171" y="87" text-anchor="middle" font-family="monospace" font-size="11" fill="#0F172A">N⁺</text>
+  <text x="98" y="106" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">P 体区</text>
+  <text x="242" y="160" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">N⁻ 漂移区</text>
+
+  <line x1="112" y1="68" x2="112" y2="212" stroke="#0D9488" stroke-width="2" marker-end="url(#arr-d6f)"/>
+  <text x="148" y="176" font-family="sans-serif" font-size="11.5" fill="#0F766E">续流 I_F (S → D)</text>
+  <circle cx="84" cy="156" r="3.5" fill="#D97706"/>
+  <circle cx="136" cy="152" r="3.5" fill="#D97706"/>
+  <circle cx="92" cy="186" r="3.5" fill="#D97706"/>
+  <circle cx="144" cy="196" r="3.5" fill="#D97706"/>
+  <circle cx="188" cy="192" r="3.5" fill="#D97706"/>
+  <text x="170" y="274" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">大量少子（空穴）注入并堆积在厚 N⁻ 漂移区</text>
+  <text x="170" y="294" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#475569">（GaN 无 P 体区与 N⁻ 漂移区，故 Q_rr = 0）</text>
+
+  <text x="510" y="22" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">② 突然反偏：Q_rr 倒灌路径（D → S）</text>
+  <rect x="388" y="54" width="128" height="14" fill="#94A3B8"/>
+  <text x="452" y="46" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">S (源极，低电位)</text>
+  <rect x="532" y="54" width="96" height="18" fill="#E0F2FE" stroke="#0284C7" stroke-width="1"/>
+  <rect x="546" y="58" width="68" height="10" fill="#64748B"/>
+  <text x="580" y="46" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">G (0V 关断)</text>
+
+  <rect x="388" y="72" width="240" height="146" fill="#F8FAFC" stroke="#64748B" stroke-width="1.2"/>
+  <rect x="388" y="218" width="240" height="28" fill="#E2E8F0" stroke="#64748B" stroke-width="1.2"/>
+  <text x="508" y="236" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">N⁺ 衬底 → D (突加高压 +V_in)</text>
+  <path d="M 388 72 L 550 72 L 550 116 Q 550 132 534 132 L 388 132 Z" fill="#E2E8F0" stroke="#64748B" stroke-width="1.2"/>
+  <rect x="488" y="72" width="46" height="22" fill="#F8FAFC" stroke="#64748B" stroke-width="1"/>
+  <text x="511" y="87" text-anchor="middle" font-family="monospace" font-size="11" fill="#0F172A">N⁺</text>
+  <text x="438" y="106" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#0F172A">P 体区</text>
+  <text x="582" y="160" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#475569">N⁻ 漂移区</text>
+
+  <line x1="452" y1="214" x2="452" y2="72" stroke="#D97706" stroke-width="2.2" marker-end="url(#arr-d6r)"/>
+  <path d="M 526 214 L 526 154 Q 526 138 492 130 L 468 118" fill="none" stroke="#D97706" stroke-width="2.2" marker-end="url(#arr-d6r)"/>
+  <circle cx="452" cy="176" r="3.5" fill="#D97706"/>
+  <circle cx="526" cy="182" r="3.5" fill="#D97706"/>
+  <text x="544" y="196" font-family="sans-serif" font-size="11.5" fill="#B45309">I_rr (D → S)</text>
+  <text x="510" y="274" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">堆积空穴被高压向上强抽回 P 体区 → 从 S 流出</text>
+  <text x="510" y="294" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#475569">（形成垂直穿透管体的反向短路尖峰，引发发热振铃）</text>
+</svg>

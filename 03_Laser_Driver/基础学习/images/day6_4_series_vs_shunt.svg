@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 680 284" width="680" height="284" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="284" fill="#FFFFFF" rx="8"/>
+  <line x1="340" y1="16" x2="340" y2="268" stroke="#CBD5E1" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <text x="170" y="24" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">1. 串联型恒流驱动（控流管串联）</text>
+  <circle cx="170" cy="48" r="4" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="184" y="52" font-family="monospace" font-size="11.5" fill="#0F172A">V_CC</text>
+  <line x1="170" y1="52" x2="170" y2="76" stroke="#0F172A" stroke-width="1.5"/>
+  <polygon points="156,76 184,76 170,100" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.4"/>
+  <line x1="156" y1="100" x2="184" y2="100" stroke="#0F172A" stroke-width="1.6"/>
+  <text x="194" y="92" font-family="monospace" font-size="11.5" fill="#0F172A">LD</text>
+  <line x1="170" y1="100" x2="170" y2="132" stroke="#0F172A" stroke-width="1.5"/>
+  <rect x="134" y="132" width="72" height="36" rx="6" fill="#F8FAFC" stroke="#475569" stroke-width="1.3"/>
+  <text x="170" y="154" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">Q1 调流</text>
+  <line x1="94" y1="150" x2="134" y2="150" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="86" y="154" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">控制信号</text>
+  <line x1="170" y1="168" x2="170" y2="192" stroke="#0F172A" stroke-width="1.5"/>
+  <rect x="160" y="192" width="20" height="34" rx="2" fill="#F8FAFC" stroke="#475569" stroke-width="1.3"/>
+  <text x="190" y="213" font-family="monospace" font-size="11.5" fill="#0F172A">R_sense</text>
+  <line x1="170" y1="226" x2="170" y2="246" stroke="#0F172A" stroke-width="1.5"/>
+  <line x1="158" y1="246" x2="182" y2="246" stroke="#0F172A" stroke-width="1.5"/>
+  <line x1="163" y1="251" x2="177" y2="251" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="170" y="272" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#0369A1">Q1 关断即断电（省电、效率高）</text>
+
+  <text x="510" y="24" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#0F172A">2. 并联型（分流型）恒流驱动</text>
+  <circle cx="510" cy="44" r="4" fill="#F8FAFC" stroke="#0F172A" stroke-width="1.4"/>
+  <text x="524" y="48" font-family="monospace" font-size="11.5" fill="#0F172A">V_CC</text>
+  <line x1="510" y1="48" x2="510" y2="62" stroke="#0F172A" stroke-width="1.5"/>
+  <circle cx="510" cy="82" r="20" fill="#F8FAFC" stroke="#0284C7" stroke-width="1.5"/>
+  <line x1="510" y1="70" x2="510" y2="92" stroke="#0F172A" stroke-width="1.5"/>
+  <polyline points="505,86 510,93 515,86" fill="none" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="538" y="80" font-family="monospace" font-size="11.5" fill="#0F172A">恒流源 I_0</text>
+  <text x="538" y="96" font-family="sans-serif" font-size="11" fill="#475569">(始终恒定输出)</text>
+  <line x1="510" y1="102" x2="510" y2="124" stroke="#0F172A" stroke-width="1.5"/>
+  <circle cx="510" cy="124" r="3" fill="#0F172A"/>
+  <polyline points="510,124 446,124 446,154" fill="none" stroke="#0F172A" stroke-width="1.5"/>
+  <polyline points="510,124 574,124 574,158" fill="none" stroke="#0F172A" stroke-width="1.5"/>
+  <rect x="412" y="154" width="68" height="36" rx="6" fill="#F8FAFC" stroke="#475569" stroke-width="1.3"/>
+  <text x="446" y="176" text-anchor="middle" font-family="monospace" font-size="11.5" fill="#0F172A">Q1 分流</text>
+  <line x1="376" y1="172" x2="412" y2="172" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="372" y="176" text-anchor="end" font-family="sans-serif" font-size="11.5" fill="#475569">控制</text>
+  <polyline points="446,190 446,232 574,232" fill="none" stroke="#0F172A" stroke-width="1.5"/>
+  <polygon points="560,158 588,158 574,182" fill="#E0F2FE" stroke="#0284C7" stroke-width="1.4"/>
+  <line x1="560" y1="182" x2="588" y2="182" stroke="#0F172A" stroke-width="1.6"/>
+  <text x="598" y="174" font-family="monospace" font-size="11.5" fill="#0F172A">LD</text>
+  <line x1="574" y1="182" x2="574" y2="232" stroke="#0F172A" stroke-width="1.5"/>
+  <circle cx="510" cy="232" r="3" fill="#0F172A"/>
+  <line x1="510" y1="232" x2="510" y2="246" stroke="#0F172A" stroke-width="1.5"/>
+  <line x1="498" y1="246" x2="522" y2="246" stroke="#0F172A" stroke-width="1.5"/>
+  <line x1="503" y1="251" x2="517" y2="251" stroke="#0F172A" stroke-width="1.5"/>
+  <text x="510" y="272" text-anchor="middle" font-family="sans-serif" font-size="11.5" fill="#B45309">Q1 导通抢走电流灭光；Q1 关断全灌 LD 发光</text>
+</svg>
